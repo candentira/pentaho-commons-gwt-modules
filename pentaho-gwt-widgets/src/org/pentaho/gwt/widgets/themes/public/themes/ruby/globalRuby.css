@@ -58,7 +58,7 @@ a:visited {
 a,
 a:active,
 a:hover {
-  color: #CCCCCC;
+  color: #7C0B2B;
   text-decoration: none;
 }
 
@@ -409,7 +409,7 @@ div.sectionBar {
 }
 
 div.filterCondition table {
-  background-color: #CCDFED !important;
+  background-color: #ffffff; !important;
 }
 
 div.filterConditionAdd {
@@ -5065,8 +5065,8 @@ span.gwt-RadioButton label {
 
 .login-role {
   font-size: 14px;
-  color: #FFF;
-  border-bottom: 1px solid #FFF;
+  color: #414141;
+  border-bottom: 1px solid #CCCCCC;
   text-align: center;
   padding-bottom: 5px;
   margin-bottom: 5px;
@@ -7021,14 +7021,14 @@ treecontrol.tree-classic li .tree-selected {
   color: #333;
 }
 
+.leaf-widget .gwt-TreeItem:hover > table {
+  background-color: #CCCCCC;
+  color: #414141;
+}
+
 .leaf-widget .gwt-TreeItem-selected > table,
 .leaf-widget .gwt-TreeItem-selected:hover > table {
   background-color: rgba(204, 0, 0, 0.2);
-}
-
-.leaf-widget .gwt-TreeItem:hover > table {
-  background-color: #E0E0E0;
-  color: #414141;
 }
 
 .leaf-widget .leaf-widget-hidden .gwt-TreeItem > table {
@@ -7045,14 +7045,28 @@ treecontrol.tree-classic li .tree-selected {
   background-color: #dbdbdb;
 }
 
-.gwt-TreeItem-selected .icon-folder,
 .gwt-TreeItem:hover .icon-folder {
   background: url(images/folder_16.png) no-repeat;
 }
 
-.open > table .gwt-TreeItem-selected .icon-folder,
+.gwt-TreeItem-selected:hover .icon-folder {
+  background: url(images/folder_16.png) no-repeat;
+}
+
+.gwt-TreeItem-selected .icon-folder {
+  background: url(images/folder_16_white.png) no-repeat;
+}
+
+.open > table .gwt-TreeItem-selected:hover .icon-folder {
+  background: url(images/folder_16-open.png) no-repeat;
+}
+
 .open > table .gwt-TreeItem-selected .icon-folder {
   background: url(images/folder_16-open.png) no-repeat;
+}
+
+.open > table .gwt-TreeItem-selected:hover .icon-folder {
+  background: url(images/folder_16_white-open.png) no-repeat;
 }
 
 .gwt-TreeItem > table > tbody > tr > td:first-child {
@@ -7927,7 +7941,7 @@ body.bootstrap .modal.confirmationDialog {
 }
 
 .bootstrap .filteredPluginsContainer ul > li:hover {
-    background: #E6EFF6;
+    background: #CCCCCC;
 }
 
 .bootstrap.admin-perspective .pentaho-tab-deck-panel {
@@ -7987,14 +8001,14 @@ body.bootstrap .modal.pluginDetailDialog .pluginDetail .pluginDetailTop .pluginD
 }
 
 .infoBar {
-  background: #005DA6;
-  border-color: #005DA6;
+  background: #CC0000;
+  border-color: #CC0000;
 }
 
 .infoBar:hover,
 .infoBar:active {
-  background: #0F2B5B;
-  border-color: #0F2B5B;
+  background: #7C0B2B;
+  border-color: #7C0B2B;
 }
 
 body.bootstrap .modal.pluginDetailDialog .pluginDetail {
